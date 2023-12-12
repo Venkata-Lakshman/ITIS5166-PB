@@ -325,18 +325,7 @@ function Visuals() {
       </section>
      
        <section className="chart-container">
-       {/* <article className="chart">
-          <h1>Donught Chart- Budgets</h1>
-          <p>
-            <canvas ref={chart3Ref} />
-          </p>
-        </article> */}
-       {/* <article className="chart">
-         <h1>Donught Chart - Expenses</h1>
-         <p>
-           <canvas ref={chart4Ref} />
-         </p>
-       </article> */}
+       
        <article className="chart">
          <h1>combo Chart - Expenses</h1>
          <p>
