@@ -58,7 +58,7 @@ function ManageExpense() {
         console.error('Month, category, and expense amount are required');
         return;
       }
-      await axios.post('http://localhost:3002/add-expense', {
+      await axios.post('http://161.35.134.121:3002/add-expense', {
         userId: userId,
         month: selectedMonth,
         category: selectedCategory,
