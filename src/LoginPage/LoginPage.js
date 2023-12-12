@@ -30,7 +30,7 @@ const LoginPage = (props) => {
 
   
     axios
-    .post('http://localhost:3002/login', formData)
+    .post('http://161.35.134.121:3002/login', formData)
     .then((response) => {
       setSuccessMessage(response.data.message);
       if(response.data.user) {
