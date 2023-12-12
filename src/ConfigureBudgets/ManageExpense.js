@@ -28,7 +28,7 @@ function ManageExpense() {
         const userId = localStorage.getItem('userId');
         const token = localStorage.getItem('token');
   
-        const categoriesResponse = await axios.get(`http://localhost:3002/get-categories/${userId}?month=${selectedMonth}`, {
+        const categoriesResponse = await axios.get(`http://161.35.134.121:3002/get-categories/${userId}?month=${selectedMonth}`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
